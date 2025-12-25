@@ -1,7 +1,7 @@
 from typing import Union
 
 from fastapi import FastAPI
-
+from app.db import mongo
 app = FastAPI()
 
 
